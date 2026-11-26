@@ -2,6 +2,7 @@
 
 [Wikidocs 스킬 추천 목록](https://wikidocs.net/446636)의 57개 항목을 기준으로 관리합니다. 한 항목이 여러 스킬을 포함할 수 있습니다.
 
+- Claude Code와 Codex는 작업에 맞는 프로젝트 스킬을 찾아 자동으로 적용합니다. 직접 호출은 선택 사항입니다. [Claude Code 지침](../CLAUDE.md) · [Codex 지침](../AGENTS.md)
 - Claude Code에서 저장소 루트를 열면 `.claude/skills/`의 프로젝트 스킬을 사용할 수 있습니다. 예: `/humanizer`.
 - Codex에서는 `.agents/skills/`의 저장소 내부 링크를 사용합니다. 예: `$humanizer`. 체크아웃 시 심볼릭 링크가 실제 링크로 유지되어야 합니다.
 - 스킬 파일은 Git에 포함됩니다. 별도 다운로드는 필요 없습니다. 외부 앱 로그인, MCP 연결, CLI, 원본 플러그인 훅은 쓰려는 기능별로 구성합니다.
