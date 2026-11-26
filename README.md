@@ -3,9 +3,10 @@
 Python 3.11 이상과 내장 SQLite로 실행합니다. 패키지 설치나 상시 서버가 필요 없습니다. 프로젝트 폴더에서 다음 명령을 실행합니다.
 
 ```sh
-python3 joyti.py init
-python3 -m unittest -v
+./setup.sh
 ```
+
+이 명령은 DB를 초기화하고 오프라인 테스트를 실행합니다. Claude 인수인계는 [CLAUDE.md](CLAUDE.md)에 정리했습니다.
 
 기본 DB는 `.local/joyti.sqlite3`에 저장됩니다. 별도 저장 위치는 `JOYTI_DB` 또는 명령 앞의 `--db 경로`로 지정합니다. 운영 DB는 지속 저장소에 두고 백업하세요. 토큰과 운영 데이터는 Git에 올리지 마세요.
 
@@ -23,7 +24,7 @@ python3 -m unittest -v
 | 네이버 카페 | 카페 글쓰기 권한을 가진 조이티 네이버 계정과 카페 API를 설정한 네이버 로그인 앱. `JOYTI_NAVER_CAFE_ID`, `JOYTI_NAVER_MENU_ID`, 해당 사용자에게 발급된 `JOYTI_NAVER_ACCESS_TOKEN`. 네트워크 대상은 `openapi.naver.com`. |
 | 네이버 블로그 | 조이티 블로그의 편집 권한. 도구는 초안, 승인과 게시 URL을 관리합니다. |
 
-유효한 토큰을 환경 설정의 시크릿으로 넣으세요. 토큰 발급·갱신, 이미지 호스팅, 예약 실행은 별도로 운영해야 합니다. 연결 후에는 발행할 채널과 게시판을 확인하고 검수한 글 한 건으로 처음부터 끝까지 점검하세요.
+환경변수 이름은 [.env.example](.env.example)에 모아 두었습니다. Claude나 Codex에서는 환경 설정에 값을 넣고, 토큰은 시크릿으로 등록하세요. 로컬 셸을 사용한다면 템플릿을 `.env`로 복사하고 필요한 항목의 주석을 풀어 입력한 뒤 `. ./.env`로 불러옵니다. 토큰 발급·갱신, 이미지 호스팅, 예약 실행은 별도로 운영해야 합니다. 연결 후에는 발행할 채널과 게시판을 확인하고 검수한 글 한 건으로 처음부터 끝까지 점검하세요.
 
 [Meta 인스타그램 게시 문서](https://developers.facebook.com/docs/instagram-platform/instagram-api-with-instagram-login/content-publishing/) · [네이버 카페 API 문서](https://github.com/naver/naver-openapi-guide/blob/master/ko/login/cafe-api/cafe-api.md)
 
