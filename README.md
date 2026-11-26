@@ -10,9 +10,13 @@ Python 3.11 이상과 내장 SQLite로 실행합니다. 패키지 설치나 상�
 
 기본 DB는 `.local/joyti.sqlite3`에 저장됩니다. 별도 저장 위치는 `JOYTI_DB` 또는 명령 앞의 `--db 경로`로 지정합니다. 운영 DB는 지속 저장소에 두고 백업하세요. 토큰과 운영 데이터는 Git에 올리지 마세요.
 
+## 4채널 워크플로
+
+하나의 콘텐츠를 인스타그램·네이버 블로그·지식iN·유튜브 초안으로 준비하는 흐름은 [4채널 운영 안내](docs/four-channel-workflow.md)를 참고하세요.
+
 ## 게시 준비
 
-1. 본문을 UTF-8 텍스트 파일로 작성합니다. `python3 joyti.py draft blog --title '제목' --body-file 본문.txt`로 등록합니다. 채널은 `blog`, `cafe`, `instagram` 중 하나입니다. 인스타그램에는 Meta에서 읽을 수 있는 공개 JPEG URL을 `--image-url`로 넘기고, 본문에는 캡션을 넣습니다. 인스타그램 제목은 내부 관리용입니다.
+1. 본문을 UTF-8 텍스트 파일로 작성합니다. `python3 joyti.py draft blog --title '제목' --body-file 본문.txt`로 등록합니다. 채널은 `blog`, `cafe`, `instagram`, `kin`, `youtube` 중 하나입니다. 인스타그램에는 Meta에서 읽을 수 있는 공개 JPEG URL을 `--image-url`로 넘기고, 본문에는 캡션을 넣습니다. 인스타그램 제목은 내부 관리용입니다.
 2. `python3 joyti.py list`로 번호를 확인하고 `python3 joyti.py show 1`로 초안을 검토합니다. `python3 joyti.py approve 1`로 승인합니다.
 3. 블로그는 네이버 편집기에 제목과 본문을 붙여넣어 게시합니다. `python3 joyti.py record-published 1 게시물_URL`로 결과를 기록합니다.
 4. 인스타그램과 카페는 `python3 joyti.py publish 1`로 발행 전 내용을 확인합니다. 실제 발행은 `python3 joyti.py publish 1 --send`를 실행한 경우에만 시도합니다. 카페는 멤버 공개 텍스트 글을 발행합니다.

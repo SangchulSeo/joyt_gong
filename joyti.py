@@ -12,7 +12,8 @@ from urllib.parse import parse_qs, urlsplit
 
 from publishers import prepare
 
-CHANNELS = ("instagram", "blog", "cafe")
+CHANNELS = ("instagram", "blog", "cafe", "kin", "youtube")
+EDITOR_CHANNELS = {"blog", "kin", "youtube"}
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS posts (
     id INTEGER PRIMARY KEY,
@@ -32,6 +33,19 @@ CREATE TABLE IF NOT EXISTS knowledge (
     answer TEXT NOT NULL,
     updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE TABLE IF NOT EXISTS channel_batches (
+    request_id TEXT PRIMARY KEY,
+    fingerprint TEXT NOT NULL,
+    source_note TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS batch_posts (
+    request_id TEXT NOT NULL REFERENCES channel_batches(request_id),
+    post_id INTEGER NOT NULL UNIQUE REFERENCES posts(id),
+    channel TEXT NOT NULL,
+    source_url TEXT,
+    video_url TEXT,
+    PRIMARY KEY(request_id, channel)
+);
 """
 
 
@@ -39,6 +53,7 @@ def open_db(path):
     path.parent.mkdir(mode=0o700, parents=True, exist_ok=True)
     db = sqlite3.connect(path)
     db.row_factory = sqlite3.Row
+    db.execute("PRAGMA foreign_keys = ON")
     db.executescript(SCHEMA)
     return db
 
@@ -72,7 +87,12 @@ def create_post(db, args):
 
 
 def get_post(db, post_id):
-    row = db.execute("SELECT * FROM posts WHERE id = ?", (post_id,)).fetchone()
+    row = db.execute(
+        """SELECT posts.*, batch_posts.request_id, batch_posts.source_url, batch_posts.video_url
+           FROM posts LEFT JOIN batch_posts ON posts.id = batch_posts.post_id
+           WHERE posts.id = ?""",
+        (post_id,),
+    ).fetchone()
     if row is None:
         raise ValueError("해당 게시물이 없습니다.")
     return dict(row)
@@ -90,12 +110,14 @@ def transition(db, post_id, before, after, remote_id=None):
 
 def publish(db, args):
     post = get_post(db, args.id)
-    if post["channel"] == "blog":
-        raise ValueError("블로그에 직접 게시한 뒤 record-published를 사용하세요.")
     if post["state"] != "approved":
         raise ValueError("승인 상태인 게시물만 발행할 수 있습니다.")
     if not args.send:
         return {"mode": "preview", "post": post}
+    if post["channel"] in EDITOR_CHANNELS or (
+        post["channel"] == "instagram" and not post["image_url"]
+    ):
+        raise ValueError("승인된 초안을 해당 채널의 게시 도구로 발행한 뒤 record-published를 사용하세요.")
 
     send = prepare(post)
     transition(db, args.id, "approved", "sending")
@@ -110,7 +132,10 @@ def publish(db, args):
 
 def record_published(db, args):
     post = get_post(db, args.id)
-    states = ("approved",) if post["channel"] == "blog" else ("needs_review", "sending")
+    editor = post["channel"] in EDITOR_CHANNELS or (
+        post["channel"] == "instagram" and not post["image_url"]
+    )
+    states = ("approved",) if editor else ("needs_review", "sending")
     if post["state"] not in states:
         raise ValueError("현재 상태에서는 발행 결과를 기록할 수 없습니다.")
     https_url(args.url)

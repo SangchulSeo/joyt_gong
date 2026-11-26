@@ -1,0 +1,56 @@
+{
+  "id": "joyti4ChannelDrafts",
+  "name": "Joyti | Four channel drafts",
+  "nodes": [
+    {
+      "id": "5d351c98-3336-4c19-8396-820705d244e3",
+      "name": "Draft intake",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "5d351c98-3336-4c19-8396-820705d244e3",
+      "parameters": {"httpMethod": "POST", "path": "joyti-four-channel-drafts", "responseMode": "responseNode"}
+    },
+    {
+      "id": "888def6e-42e5-4f36-a190-3ea853e22c17",
+      "name": "Save drafts to Joyti",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [240, 0],
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8765/drafts",
+        "sendHeaders": true,
+        "headerParameters": {"parameters": [{"name": "Authorization", "value": "={{ $json.headers.authorization || '' }}"}]},
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json.body }}",
+        "options": {"timeout": 20000, "response": {"response": {"fullResponse": true, "neverError": true, "responseFormat": "json"}}}
+      }
+    },
+    {
+      "id": "36285ae5-356e-48dd-a3f8-f3945f18af8a",
+      "name": "Return IDs and status",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [500, 0],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json.body }}",
+        "options": {"responseCode": "={{ $json.statusCode }}"}
+      }
+    }
+  ],
+  "connections": {
+    "Draft intake": {"main": [[{"node": "Save drafts to Joyti", "type": "main", "index": 0}]]},
+    "Save drafts to Joyti": {"main": [[{"node": "Return IDs and status", "type": "main", "index": 0}]]}
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataErrorExecution": "none",
+    "saveDataSuccessExecution": "none",
+    "saveExecutionProgress": false,
+    "saveManualExecutions": false
+  },
+  "active": false
+}

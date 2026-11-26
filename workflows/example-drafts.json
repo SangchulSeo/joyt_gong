@@ -1,0 +1,25 @@
+{
+  "request_id": "sample-uniform-01",
+  "source_note": "오프라인 점검 전용 예시. 유니폼 견적 문의 전 확인할 항목.",
+  "drafts": {
+    "instagram": {
+      "title": "유니폼 문의 전 체크",
+      "body": "인원, 기본 색상, 로고 유무부터 정리해 보세요.",
+      "image_url": "https://example.com/uniform.jpg"
+    },
+    "blog": {
+      "title": "단체 유니폼 준비 순서",
+      "body": "인원과 예정일을 정리한 다음, 색상과 로고 인쇄 여부를 확인합니다."
+    },
+    "kin": {
+      "title": "유니폼 견적 준비 예시",
+      "body": "필요한 인원과 수령 희망일을 먼저 정리해 두면 문의할 때 도움이 됩니다.",
+      "source_url": "https://kin.naver.com/qna/detail.naver?docId=123456"
+    },
+    "youtube": {
+      "title": "유니폼 주문 전에 체크할 세 가지",
+      "body": "영상 설명 예시. 인원, 수령 희망일, 인쇄 여부를 확인하세요.",
+      "video_url": "https://example.com/uniform-short.mp4"
+    }
+  }
+}
