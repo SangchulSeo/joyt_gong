@@ -1,0 +1,849 @@
+[
+  {
+    "entry": "01-02",
+    "name": "pm-skills",
+    "guide": "https://wikidocs.net/431817",
+    "skills": [
+      "code-review",
+      "intended-vs-implemented",
+      "shipping-artifacts",
+      "ab-test-analysis",
+      "cohort-analysis",
+      "sql-queries",
+      "brainstorm-okrs",
+      "create-prd",
+      "dummy-dataset",
+      "job-stories",
+      "live-polls",
+      "live-qa",
+      "outcome-roadmap",
+      "pre-mortem",
+      "prioritization-frameworks",
+      "release-notes",
+      "retro",
+      "sprint-plan",
+      "stakeholder-map",
+      "strategy-red-team",
+      "summarize-meeting",
+      "test-scenarios",
+      "user-stories",
+      "wwas",
+      "beachhead-segment",
+      "competitive-battlecard",
+      "growth-loops",
+      "gtm-motions",
+      "gtm-strategy",
+      "ideal-customer-profile",
+      "competitor-analysis",
+      "customer-journey-map",
+      "market-segments",
+      "market-sizing",
+      "sentiment-analysis",
+      "survey-design",
+      "user-personas",
+      "user-segmentation",
+      "marketing-ideas",
+      "north-star-metric",
+      "positioning-ideas",
+      "product-name",
+      "value-prop-statements",
+      "analyze-feature-requests",
+      "brainstorm-experiments-existing",
+      "brainstorm-experiments-new",
+      "brainstorm-ideas-existing",
+      "brainstorm-ideas-new",
+      "identify-assumptions-existing",
+      "identify-assumptions-new",
+      "interview-script",
+      "metrics-dashboard",
+      "opportunity-solution-tree",
+      "prioritize-assumptions",
+      "prioritize-features",
+      "summarize-interview",
+      "ansoff-matrix",
+      "business-model",
+      "lean-canvas",
+      "monetization-strategy",
+      "pestle-analysis",
+      "porters-five-forces",
+      "pricing-strategy",
+      "product-strategy",
+      "product-vision",
+      "startup-canvas",
+      "swot-analysis",
+      "value-proposition",
+      "draft-nda",
+      "grammar-check",
+      "privacy-policy",
+      "review-resume"
+    ],
+    "source": "phuryn/pm-skills",
+    "revision": "9af7bfd0bc47fdad43c2eaa7a43cd13918e7aaef",
+    "licenses": [
+      "docs/skill-licenses/01-02/LICENSE"
+    ],
+    "status": "installed"
+  },
+  {
+    "entry": "01-03",
+    "name": "distilly",
+    "guide": "https://wikidocs.net/431818",
+    "skills": [
+      "distilly"
+    ],
+    "source": "titanwings/distilly",
+    "revision": "0afc45c29c360ba7bc8260f1bb0bf34e9155f4fa",
+    "licenses": [
+      "docs/skill-licenses/01-03/LICENSE"
+    ],
+    "status": "installed"
+  },
+  {
+    "entry": "01-04",
+    "name": "wondelai/skills",
+    "guide": "https://wikidocs.net/431819",
+    "skills": [
+      "37signals-way",
+      "architecture-optimization",
+      "blue-ocean-strategy",
+      "clean-architecture",
+      "clean-code",
+      "cold-start-problem",
+      "contagious",
+      "continuous-discovery",
+      "conversion-optimization",
+      "create-app",
+      "create-business",
+      "create-website",
+      "cro-methodology",
+      "crossing-the-chasm",
+      "ddia-systems",
+      "design-code-architecture",
+      "design-everyday-things",
+      "design-sprint",
+      "domain-driven-design",
+      "drive-motivation",
+      "good-strategy-bad-strategy",
+      "grow-app",
+      "grow-business",
+      "grow-website",
+      "harness-audit",
+      "high-output-management",
+      "high-perf-browser",
+      "hooked-ux",
+      "hundred-million-offers",
+      "improve-app",
+      "improve-business",
+      "improve-code-quality",
+      "improve-retention",
+      "improve-website",
+      "influence-psychology",
+      "inspired-product",
+      "ios-hig-design",
+      "jobs-to-be-done",
+      "lean-analytics",
+      "lean-startup",
+      "lean-ux",
+      "made-to-stick",
+      "microinteractions",
+      "mom-test",
+      "monetizing-innovation",
+      "negotiation",
+      "obviously-awesome",
+      "one-page-marketing",
+      "pragmatic-programmer",
+      "predictable-revenue",
+      "refactoring-patterns",
+      "refactoring-ui",
+      "release-it",
+      "remove-technical-debt",
+      "scorecard-marketing",
+      "software-design-philosophy",
+      "steve-jobs-design-review",
+      "storybrand-messaging",
+      "system-design",
+      "team-topologies",
+      "technical-documentation",
+      "top-design",
+      "traction-eos",
+      "ux-heuristics",
+      "web-typography",
+      "working-with-legacy-code"
+    ],
+    "source": "wondelai/skills",
+    "revision": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe",
+    "licenses": [
+      "docs/skill-licenses/01-04/LICENSE"
+    ],
+    "status": "installed"
+  },
+  {
+    "entry": "01-05",
+    "name": "yc-office-hours",
+    "guide": "https://wikidocs.net/431922",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "검색에서 동명 저장소를 찾았지만 문서 원본과 라이선스를 확인하지 못했습니다."
+  },
+  {
+    "entry": "01-06",
+    "name": "research",
+    "guide": "https://wikidocs.net/431923",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "01-07",
+    "name": "flow-map",
+    "guide": "https://wikidocs.net/431924",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "01-08",
+    "name": "meeting-agenda",
+    "guide": "https://wikidocs.net/431925",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "02-01",
+    "name": "marketingskills",
+    "guide": "https://wikidocs.net/431821",
+    "skills": [
+      "ab-testing",
+      "ad-creative",
+      "ads",
+      "ai-seo",
+      "analytics",
+      "aso",
+      "attribution",
+      "churn-prevention",
+      "co-marketing",
+      "cold-email",
+      "community-marketing",
+      "competitor-profiling",
+      "competitors",
+      "content-strategy",
+      "conversion-tracking",
+      "copy-editing",
+      "copywriting",
+      "cro",
+      "customer-research",
+      "directory-submissions",
+      "emails",
+      "events",
+      "free-tools",
+      "image",
+      "influencer-marketing",
+      "launch",
+      "lead-magnets",
+      "link-building",
+      "marketing-council",
+      "marketing-loops",
+      "marketing-plan",
+      "marketing-psychology",
+      "offers",
+      "onboarding",
+      "paywalls",
+      "popups",
+      "pricing",
+      "product-marketing",
+      "programmatic-seo",
+      "prospecting",
+      "public-relations",
+      "referrals",
+      "reverse-engineer-marketing",
+      "revops",
+      "sales-enablement",
+      "schema",
+      "seo-audit",
+      "signup",
+      "site-architecture",
+      "sms",
+      "social",
+      "video"
+    ],
+    "source": "coreyhaines31/marketingskills",
+    "revision": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
+    "licenses": [
+      "docs/skill-licenses/02-01/LICENSE"
+    ],
+    "status": "installed",
+    "omitted": [
+      "marketing-ideas (01-02 항목과 이름 중복)"
+    ],
+    "note": "1개 중복 또는 구성 확인 항목은 상세 목록에 기록했습니다."
+  },
+  {
+    "entry": "02-02",
+    "name": "humanizer",
+    "guide": "https://wikidocs.net/431822",
+    "skills": [
+      "humanizer"
+    ],
+    "source": "blader/humanizer",
+    "revision": "a32f24407364c74c812b43c15926d638bee1e072",
+    "licenses": [
+      "docs/skill-licenses/02-02/LICENSE"
+    ],
+    "status": "installed"
+  },
+  {
+    "entry": "02-03",
+    "name": "claude-ads",
+    "guide": "https://wikidocs.net/431823",
+    "skills": [],
+    "source": "AgriciDaniel/claude-ads",
+    "revision": "fc3908e786c318776df89a3a098333da377364be",
+    "status": "runtime-required",
+    "note": "원본 플러그인의 외부 도구 및 설치 구성이 필요합니다."
+  },
+  {
+    "entry": "02-04",
+    "name": "blog-post",
+    "guide": "https://wikidocs.net/431824",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "02-05",
+    "name": "blog-topic-judge",
+    "guide": "https://wikidocs.net/431926",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "02-06",
+    "name": "technical-writer",
+    "guide": "https://wikidocs.net/431927",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "02-07",
+    "name": "korean-writing-style",
+    "guide": "https://wikidocs.net/431928",
+    "skills": [
+      "korean-writing-style"
+    ],
+    "source": "seungjoonH/korean-writing-style",
+    "revision": "e62dbe81061f06729488eae8bc6a6abcdde7e503",
+    "licenses": [
+      "docs/skill-licenses/02-07/LICENSE"
+    ],
+    "status": "installed"
+  },
+  {
+    "entry": "02-08",
+    "name": "card-news",
+    "guide": "https://wikidocs.net/431929",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "02-09",
+    "name": "brunch-apply",
+    "guide": "https://wikidocs.net/435007",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "03-01",
+    "name": "last30days-skill",
+    "guide": "https://wikidocs.net/431826",
+    "skills": [
+      "last30days"
+    ],
+    "source": "mvanhorn/last30days-skill",
+    "revision": "ed7ec6752b766ea3eb62239b374900764e9b5453",
+    "licenses": [
+      "docs/skill-licenses/03-01/LICENSE"
+    ],
+    "status": "installed",
+    "note": "연구 엔진에는 Python 3.12 이상과 해당 데이터 소스 설정이 필요할 수 있습니다."
+  },
+  {
+    "entry": "03-02",
+    "name": "nature-skills",
+    "guide": "https://wikidocs.net/431827",
+    "skills": [
+      "nature-academic-search",
+      "nature-citation",
+      "nature-data",
+      "nature-downloader",
+      "nature-experiment-log",
+      "nature-image2ppt",
+      "nature-literature-pipeline",
+      "nature-paper-card",
+      "nature-paper-to-patent",
+      "nature-paper-trans",
+      "nature-paper-xray",
+      "nature-paper2ppt",
+      "nature-paper2word",
+      "nature-polishing",
+      "researchwrite",
+      "nature-reader",
+      "nature-ref-verifier",
+      "nature-response",
+      "nature-reviewer",
+      "nature-shared",
+      "nature-social-science",
+      "nature-statistics",
+      "nature-writing"
+    ],
+    "source": "Yuan1z0825/nature-skills",
+    "revision": "96a89bc7ef78e3bece9a50bb9ad08ddea4dc0e1e",
+    "licenses": [
+      "docs/skill-licenses/03-02/LICENSE"
+    ],
+    "status": "installed",
+    "omitted": [
+      "nature-figure (외부 논문 그림 샘플의 재배포 조건 확인 필요)"
+    ],
+    "note": "실험·문서·논문 도구는 스킬별 추가 의존성이 있습니다. 1개 중복 또는 구성 확인 항목은 상세 목록에 기록했습니다."
+  },
+  {
+    "entry": "03-03",
+    "name": "notebooklm-py",
+    "guide": "https://wikidocs.net/431828",
+    "skills": [
+      "notebooklm"
+    ],
+    "source": "teng-lin/notebooklm-py",
+    "revision": "77d6ab4187cd7bd6d9af80ef6d74d524f77e7b68",
+    "licenses": [
+      "docs/skill-licenses/03-03/LICENSE"
+    ],
+    "status": "installed",
+    "note": "별도 notebooklm-py CLI와 Google 로그인이 필요합니다."
+  },
+  {
+    "entry": "03-04",
+    "name": "insane-search",
+    "guide": "https://wikidocs.net/431930",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "03-05",
+    "name": "apps-script-collector",
+    "guide": "https://wikidocs.net/431931",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "04-02",
+    "name": "archify",
+    "guide": "https://wikidocs.net/431831",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "04-03",
+    "name": "diagram-design",
+    "guide": "https://wikidocs.net/431832",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "04-04",
+    "name": "huashu-design",
+    "guide": "https://wikidocs.net/431833",
+    "skills": [],
+    "source": "alchaincyf/huashu-design",
+    "revision": "59065698ad63f87ea1532c126c87f488d4f93fd6",
+    "status": "runtime-required",
+    "note": "원본 패키지의 음악·디자인 샘플과 렌더링 의존성을 별도로 확인해야 합니다."
+  },
+  {
+    "entry": "04-05",
+    "name": "architecture-drawio-diagram",
+    "guide": "https://wikidocs.net/431932",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "04-06",
+    "name": "lecture-slide-make",
+    "guide": "https://wikidocs.net/431933",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "04-07",
+    "name": "lecture-slides",
+    "guide": "https://wikidocs.net/431934",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "04-08",
+    "name": "notebooklm-slides",
+    "guide": "https://wikidocs.net/431935",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "05-01",
+    "name": "superpowers",
+    "guide": "https://wikidocs.net/431835",
+    "skills": [
+      "brainstorming",
+      "diagnosing-superpowers",
+      "dispatching-parallel-agents",
+      "executing-plans",
+      "finishing-a-development-branch",
+      "receiving-code-review",
+      "requesting-code-review",
+      "subagent-driven-development",
+      "systematic-debugging",
+      "test-driven-development",
+      "using-git-worktrees",
+      "using-superpowers",
+      "verification-before-completion",
+      "writing-plans",
+      "writing-skills"
+    ],
+    "source": "obra/superpowers",
+    "revision": "22f0b463e7a5e579904dd6211a520321035526f7",
+    "licenses": [
+      "docs/skill-licenses/05-01/LICENSE"
+    ],
+    "status": "installed",
+    "note": "스킬 문서를 등록했습니다. 원본 플러그인의 시작 훅과 에이전트 구성은 별개입니다."
+  },
+  {
+    "entry": "05-02",
+    "name": "agent-skills",
+    "guide": "https://wikidocs.net/431836",
+    "skills": [
+      "accessibility-engineering",
+      "api-and-interface-design",
+      "browser-testing-with-devtools",
+      "ci-cd-and-automation",
+      "code-review-and-quality",
+      "code-simplification",
+      "constraint-driven-development",
+      "context-engineering",
+      "debugging-and-error-recovery",
+      "deprecation-and-migration",
+      "documentation-and-adrs",
+      "doubt-driven-development",
+      "frontend-ui-engineering",
+      "git-workflow-and-versioning",
+      "idea-refine",
+      "incremental-implementation",
+      "interview-me",
+      "observability-and-instrumentation",
+      "performance-optimization",
+      "planning-and-task-breakdown",
+      "security-and-hardening",
+      "shipping-and-launch",
+      "source-driven-development",
+      "spec-driven-development",
+      "using-agent-skills"
+    ],
+    "source": "addyosmani/agent-skills",
+    "revision": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
+    "licenses": [
+      "docs/skill-licenses/05-02/LICENSE"
+    ],
+    "status": "installed",
+    "omitted": [
+      "test-driven-development (05-01 항목과 이름 중복)"
+    ],
+    "note": "프로젝트 스킬을 등록했습니다. 플러그인 훅과 MCP 설정은 별개입니다. 1개 중복 또는 구성 확인 항목은 상세 목록에 기록했습니다."
+  },
+  {
+    "entry": "05-03",
+    "name": "n8n-skills",
+    "guide": "https://wikidocs.net/431945",
+    "skills": [
+      "n8n-agents",
+      "n8n-binary-and-data",
+      "n8n-code-javascript",
+      "n8n-code-python",
+      "n8n-code-tool",
+      "n8n-error-handling",
+      "n8n-expression-syntax",
+      "n8n-mcp-tools-expert",
+      "n8n-multi-instance",
+      "n8n-node-configuration",
+      "n8n-self-hosting",
+      "n8n-subworkflows",
+      "n8n-validation-expert",
+      "n8n-workflow-patterns",
+      "using-n8n-mcp-skills"
+    ],
+    "source": "czlonkowski/n8n-skills",
+    "revision": "ecdeca6f760b56bb1b11c0a7c961f11b69cb87d5",
+    "licenses": [
+      "docs/skill-licenses/05-03/LICENSE",
+      "docs/skill-licenses/05-03/NOTICES",
+      "docs/skill-licenses/05-03/NOTICES-APACHE-2.0.txt"
+    ],
+    "status": "installed",
+    "note": "워크플로 실행에는 n8n 인스턴스와 기능별 연결이 필요합니다."
+  },
+  {
+    "entry": "05-04",
+    "name": "n8n-route",
+    "guide": "https://wikidocs.net/431946",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "05-05",
+    "name": "n8n-workflow-builder",
+    "guide": "https://wikidocs.net/431947",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "05-06",
+    "name": "n8n-debugger",
+    "guide": "https://wikidocs.net/431948",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "05-07",
+    "name": "rea",
+    "guide": "https://wikidocs.net/452096",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "06-01",
+    "name": "obsidian-skills",
+    "guide": "https://wikidocs.net/431840",
+    "skills": [
+      "defuddle",
+      "json-canvas",
+      "knap",
+      "obsidian-bases",
+      "obsidian-cli",
+      "obsidian-headless",
+      "obsidian-markdown"
+    ],
+    "source": "kepano/obsidian-skills",
+    "revision": "79e85b73ef041fdfb6437ab3824e2fe29eda9244",
+    "licenses": [
+      "docs/skill-licenses/06-01/LICENSE"
+    ],
+    "status": "installed",
+    "note": "CLI 연동 스킬에는 해당 Obsidian 도구가 필요합니다."
+  },
+  {
+    "entry": "06-02",
+    "name": "gmail-search",
+    "guide": "https://wikidocs.net/431939",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "06-03",
+    "name": "email-draft",
+    "guide": "https://wikidocs.net/431940",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "06-04",
+    "name": "add-launchd-job",
+    "guide": "https://wikidocs.net/431941",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "06-05",
+    "name": "new-project",
+    "guide": "https://wikidocs.net/431942",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "06-06",
+    "name": "markdown-to-pdf",
+    "guide": "https://wikidocs.net/431943",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "06-07",
+    "name": "aside-browser",
+    "guide": "https://wikidocs.net/431944",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "07-01",
+    "name": "i-have-adhd",
+    "guide": "https://wikidocs.net/431837",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "07-02",
+    "name": "grilling",
+    "guide": "https://wikidocs.net/431938",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "관련 저장소의 스킬 이름이 바뀌어 문서의 원본 항목을 확정하지 못했습니다."
+  },
+  {
+    "entry": "07-03",
+    "name": "plan",
+    "guide": "https://wikidocs.net/431936",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "07-04",
+    "name": "planning-with-files",
+    "guide": "https://wikidocs.net/431841",
+    "skills": [],
+    "source": "OthmanAdi/planning-with-files",
+    "revision": "189fd09fecb246a4064f2cd0635153b5297f5369",
+    "status": "runtime-required",
+    "note": "원본 스킬에 자동 실행 훅이 있어 별도 설치 확인이 필요합니다."
+  },
+  {
+    "entry": "07-05",
+    "name": "session-wrap",
+    "guide": "https://wikidocs.net/431838",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "07-06",
+    "name": "skill-creator",
+    "guide": "https://wikidocs.net/431937",
+    "skills": [
+      "skill-creator"
+    ],
+    "source": "anthropics/skills",
+    "revision": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+    "licenses": [
+      "docs/skill-licenses/07-06/LICENSE.txt"
+    ],
+    "status": "installed",
+    "note": "스킬 작성 문서를 등록했습니다. 평가 기능은 Claude CLI와 별도 라이브러리가 필요할 수 있습니다."
+  },
+  {
+    "entry": "07-07",
+    "name": "skill-recorder",
+    "guide": "https://wikidocs.net/431843",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "07-08",
+    "name": "SkillSpector",
+    "guide": "https://wikidocs.net/431842",
+    "skills": [],
+    "source": "NVIDIA/SkillSpector",
+    "revision": "02894ec5b8a0a70637df5a6b45763de92940cedd",
+    "status": "runtime-required",
+    "note": "별도 SkillSpector 스캐너 런타임과 설치 구성이 필요합니다."
+  },
+  {
+    "entry": "08-01",
+    "name": "gstack",
+    "guide": "https://wikidocs.net/431816",
+    "skills": [],
+    "source": "garrytan/gstack",
+    "revision": "89825888c57ec5ed472f8fea4a715882b401a9e5",
+    "status": "runtime-required",
+    "note": "Gstack 전용 설치·빌드와 브라우저 런타임이 필요합니다."
+  },
+  {
+    "entry": "08-02",
+    "name": "taste-skill",
+    "guide": "https://wikidocs.net/431830",
+    "skills": [],
+    "source": "leonxlnx/taste-skill",
+    "revision": "d1a2bb41d927083ac7118f60cfc9cdf711810ea0",
+    "status": "runtime-required",
+    "note": "원본 스킬에 자동 실행 훅이 있어 별도 설치 확인이 필요합니다."
+  },
+  {
+    "entry": "08-03",
+    "name": "korean-privacy-terms",
+    "guide": "https://wikidocs.net/435361",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "08-04",
+    "name": "ponytail",
+    "guide": "https://wikidocs.net/435504",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  },
+  {
+    "entry": "08-05",
+    "name": "ui-ux-pro-max",
+    "guide": "https://wikidocs.net/435505",
+    "skills": [
+      "ui-ux-pro-max"
+    ],
+    "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "revision": "01706130e32f2af1d12923cce8d64a85fd76a3cd",
+    "licenses": [
+      "docs/skill-licenses/08-05/LICENSE"
+    ],
+    "status": "installed"
+  },
+  {
+    "entry": "08-06",
+    "name": "Understand-Anything",
+    "guide": "https://wikidocs.net/435506",
+    "skills": [],
+    "source": "Lum1104/Understand-Anything",
+    "revision": "b232f356446295e4eaa05b9b285e08ce5cd5e8a0",
+    "status": "runtime-required",
+    "note": "코드 그래프 생성을 위한 별도 플러그인 빌드와 런타임이 필요합니다."
+  },
+  {
+    "entry": "08-07",
+    "name": "open-code-review",
+    "guide": "https://wikidocs.net/435507",
+    "skills": [],
+    "status": "source-unverified",
+    "note": "개별 설치 문서를 열 수 없어 원본과 배포 조건을 확인하지 못했습니다."
+  }
+]

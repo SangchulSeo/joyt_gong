@@ -6,7 +6,7 @@ Python 3.11 이상과 내장 SQLite로 실행합니다. 패키지 설치나 상�
 ./setup.sh
 ```
 
-이 명령은 DB를 초기화하고 오프라인 테스트를 실행합니다. Claude 인수인계는 [CLAUDE.md](CLAUDE.md)에 정리했습니다.
+이 명령은 DB를 초기화하고 오프라인 테스트를 실행합니다. Claude 인수인계는 [CLAUDE.md](CLAUDE.md), 프로젝트 스킬 설치 상태는 [에이전트 스킬 목록](docs/agent-skills.md)에 정리했습니다.
 
 기본 DB는 `.local/joyti.sqlite3`에 저장됩니다. 별도 저장 위치는 `JOYTI_DB` 또는 명령 앞의 `--db 경로`로 지정합니다. 운영 DB는 지속 저장소에 두고 백업하세요. 토큰과 운영 데이터는 Git에 올리지 마세요.
 
