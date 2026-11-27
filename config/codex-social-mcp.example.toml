@@ -1,0 +1,32 @@
+# ./setup-social-mcp.sh renders absolute command paths under .local/.
+# Enable a server only after providing its required settings and verifying the account.
+
+[mcp_servers.joyti_naver_search]
+enabled = false
+command = ".local/social-mcp-node/node_modules/.bin/naver-search-mcp"
+env_vars = ["NCP_APIGW_API_KEY_ID", "NCP_APIGW_API_KEY", "NAVER_CLIENT_ID", "NAVER_CLIENT_SECRET"]
+startup_timeout_sec = 30
+
+[mcp_servers.joyti_naver_blog]
+enabled = false
+command = ".local/skill-bin/naver-blog-mcp"
+env_vars = ["NAVER_BLOG_ID", "NAVER_STATE"]
+startup_timeout_sec = 30
+
+[mcp_servers.joyti_instagram]
+enabled = false
+command = ".local/skill-bin/instagram-mcp"
+env_vars = ["INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_API_VERSION", "INSTAGRAM_DATA_DIR"]
+startup_timeout_sec = 30
+
+[mcp_servers.joyti_youtube]
+enabled = false
+command = ".local/skill-bin/youtube-studio-mcp"
+env_vars = ["YOUTUBE_API_KEY", "YOUTUBE_MCP_CLIENT_SECRET", "YOUTUBE_MCP_CONFIG_DIR"]
+startup_timeout_sec = 30
+
+[mcp_servers.joyti_upload_post]
+enabled = false
+command = ".local/social-mcp-node/node_modules/.bin/upload-post-mcp"
+env_vars = ["UPLOAD_POST_API_KEY"]
+startup_timeout_sec = 30

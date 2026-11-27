@@ -4,6 +4,7 @@
 
 - Claude Code와 Codex는 작업에 맞는 프로젝트 스킬을 찾아 자동으로 적용합니다. 직접 호출은 선택 사항입니다. [Claude Code 지침](../CLAUDE.md) · [Codex 지침](../AGENTS.md)
 - 57개 목록 외에 공식 n8n 스킬 15개와 `joyti-four-channel`을 등록했습니다. 해당 스킬은 [4채널 운영 안내](four-channel-workflow.md)에서 사용합니다.
+- 콘텐츠 제작 스킬 17개와 `naver-search-mcp` 스킬은 [소셜 MCP 연결 안내](social-mcp-setup.md)에 정리했습니다.
 - Claude Code에서 저장소 루트를 열면 `.claude/skills/`의 프로젝트 스킬을 사용할 수 있습니다. 예: `/humanizer`.
 - Codex에서는 `.agents/skills/`의 저장소 내부 링크를 사용합니다. 예: `$humanizer`. 체크아웃 시 심볼릭 링크가 실제 링크로 유지되어야 합니다.
 - 스킬 파일은 Git에 포함됩니다. 별도 다운로드는 필요 없습니다. 외부 앱 로그인, MCP 연결, CLI, 원본 플러그인 훅은 쓰려는 기능별로 구성합니다.

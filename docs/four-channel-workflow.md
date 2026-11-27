@@ -50,4 +50,4 @@ n8n MCP 문서·검증 모드는 `MCP_MODE=stdio LOG_LEVEL=error DISABLE_CONSOLE
 
 외부 편집기·CLI로 게시한 건은 실제 URL을 확인한 뒤 `python3 joyti.py record-published ID URL`로 기록합니다. 스케줄러, 계정 권한, 쿠키와 원격 발행 결과는 별도 실계정 검증이 필요합니다.
 
-[공식 n8n 스킬](https://github.com/n8n-io/skills/tree/626f50fdf2934116eea2c5469339e03d2d524e83) · [네이버 블로그 MCP 설치 안내](https://github.com/Johnhyeon/naver-blog-mcp) · [Taisly Agent](https://github.com/taisly/agent)
+[Codex용 소셜 MCP 연결 안내](social-mcp-setup.md) · [공식 n8n 스킬](https://github.com/n8n-io/skills/tree/626f50fdf2934116eea2c5469339e03d2d524e83) · [네이버 블로그 MCP 설치 안내](https://github.com/Johnhyeon/naver-blog-mcp) · [Taisly Agent](https://github.com/taisly/agent)
