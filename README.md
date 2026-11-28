@@ -14,6 +14,8 @@ Python 3.11 이상과 내장 SQLite로 실행합니다. 패키지 설치나 상�
 
 하나의 콘텐츠를 인스타그램·네이버 블로그·지식iN·유튜브 초안으로 준비하는 흐름은 [4채널 운영 안내](docs/four-channel-workflow.md)를 참고하세요.
 
+Gemini 영상 기획, Veo MP4 생성, 지식iN Google 관리시트 생성은 [Google API 연결 안내](docs/google-video-and-sheets.md)를 참고하세요.
+
 ## 게시 준비
 
 1. 본문을 UTF-8 텍스트 파일로 작성합니다. `python3 joyti.py draft blog --title '제목' --body-file 본문.txt`로 등록합니다. 채널은 `blog`, `cafe`, `instagram`, `kin`, `youtube` 중 하나입니다. 인스타그램에는 Meta에서 읽을 수 있는 공개 JPEG URL을 `--image-url`로 넘기고, 본문에는 캡션을 넣습니다. 인스타그램 제목은 내부 관리용입니다.
